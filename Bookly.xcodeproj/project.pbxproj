@@ -13,6 +13,8 @@
 		475486F82B2C9D6000A2FE84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475486F72B2C9D6000A2FE84 /* Preview Assets.xcassets */; };
 		475487012B2D60D400A2FE84 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475487002B2D60D400A2FE84 /* Book.swift */; };
 		475487032B2D616F00A2FE84 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475487022B2D616F00A2FE84 /* AddBookView.swift */; };
+		475487052B2D71CC00A2FE84 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475487042B2D71CC00A2FE84 /* RatingView.swift */; };
+		475487072B2D772500A2FE84 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475487062B2D772500A2FE84 /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		475486F72B2C9D6000A2FE84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		475487002B2D60D400A2FE84 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		475487022B2D616F00A2FE84 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		475487042B2D71CC00A2FE84 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		475487062B2D772500A2FE84 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				475486F02B2C9D6000A2FE84 /* BooklyApp.swift */,
 				475486F22B2C9D6000A2FE84 /* ContentView.swift */,
+				475487042B2D71CC00A2FE84 /* RatingView.swift */,
+				475487062B2D772500A2FE84 /* EmojiRatingView.swift */,
 				475487022B2D616F00A2FE84 /* AddBookView.swift */,
 				475487002B2D60D400A2FE84 /* Book.swift */,
 				475486F42B2C9D6000A2FE84 /* Assets.xcassets */,
@@ -146,6 +152,8 @@
 				475486F32B2C9D6000A2FE84 /* ContentView.swift in Sources */,
 				475486F12B2C9D6000A2FE84 /* BooklyApp.swift in Sources */,
 				475487012B2D60D400A2FE84 /* Book.swift in Sources */,
+				475487052B2D71CC00A2FE84 /* RatingView.swift in Sources */,
+				475487072B2D772500A2FE84 /* EmojiRatingView.swift in Sources */,
 				475487032B2D616F00A2FE84 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
