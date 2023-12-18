@@ -39,6 +39,18 @@ struct AddBookView: View {
                 
                 Section {
                     Button("Save") {
+                        if title.isEmpty {
+                            title = "Merry Christmas Default Dan"
+                        }
+                        if author.isEmpty {
+                            author = "Tester"
+                        }
+                        if genre.isEmpty {
+                            genre = "Mystery"
+                        }
+                        if review.isEmpty {
+                            review = "Well this book was never written so..."
+                        }
                         let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating)
                         modelContext.insert(newBook)
                         dismiss()

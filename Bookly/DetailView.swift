@@ -37,6 +37,9 @@ struct DetailView: View {
             Text(book.review)
                 .padding()
             
+            Text("Finished " + book.date.formatted(date: .complete, time: .omitted))
+                .padding()
+            
             RatingView(rating: .constant(book.rating))
                 .font(.largeTitle)
         }
